@@ -1,6 +1,7 @@
 package com.company.AbstractFactory;
 
 public class ServicioSoftwareEducacional implements ServicioInformatico{
+    //implementan producto abstracto y esto lo hacen un producto concreto
     @Override
     public void asignarTrabajo() {
         System.out.println("El equipo de desarrollo ha sido informado del trabajo a realizar");

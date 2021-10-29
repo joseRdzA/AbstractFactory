@@ -1,6 +1,7 @@
 package com.company.AbstractFactory;
 
 public class ServicioSitioWeb implements ServicioInformatico{
+    //
     @Override
     public void asignarTrabajo() {
         System.out.println("Personal de Desarrollo Web aceptó su trabajo");

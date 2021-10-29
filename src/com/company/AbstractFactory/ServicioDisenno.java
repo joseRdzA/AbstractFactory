@@ -1,6 +1,6 @@
 package com.company.AbstractFactory;
 
-public class ServicioDisenno implements ServicioInformatico{
+public class ServicioDisenno implements ServicioInformatico{ //implementan interface y los hacen concretos
     @Override
     public void asignarTrabajo() {
         System.out.println("Trabajo asignado a diseñadores disponibles...");
